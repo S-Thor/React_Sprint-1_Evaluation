@@ -1,0 +1,9 @@
+.counter {
+  /* TODO */
+  border: 1px solid #fcfcfc;
+}
+.counter > button {
+  background-color: #8197E8;
+  border-radius: 5px;
+  border: none;
+}

@@ -1,0 +1,24 @@
+.tasks {
+  /* sample */
+  background-color: white;
+  width: 90%;
+  height: auto;
+  margin: auto;
+  box-sizing: border-box;
+  
+  /* border: 1px solid black; */
+}
+
+.empty {
+  /* sample */
+  display: none;
+  text-align: center;
+}
+
+.empty > span {
+  font-size: 40px;
+}
+
+.empty > p:nth-child(2) {
+  font-weight: bold;
+}

@@ -1,0 +1,39 @@
+.task {
+  /* Sample  */
+  list-style-type: none;
+  width: 117%;
+  margin-left: -40px;
+  display: flex;
+  /* justify-content: space-between; */
+  /* border: 1px solid black; */
+  padding: 10px 0;
+}
+
+.task > div:nth-child(2) {
+  width: 50%;
+  /* border: 1px solid red; */
+}
+
+.task > div:nth-child(3) {
+  width: 30%;
+  border: 1px solid #fcfcfc;
+  display: flex;
+  justify-content: space-between;
+  align-items:baseline;
+}
+
+.task > button {
+  display:none;
+  border: none;
+  font-size: 20px;
+  background-color: white;
+  /* justify-self: flex-end; */
+  /* border: 1px solid blue; */
+  display: inline-flex;
+  /* align-items: baseline; */
+  box-sizing: border-box;
+}
+
+/* .task > button:hover {
+  display:block;
+} */

@@ -1,0 +1,29 @@
+
+
+.todoForm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 2px solid #fcfcfc;
+  background-color: white;
+  padding: 5px 10px;
+}
+
+.todoForm > input {
+  width: 90%;
+  border: none;
+  padding: 10px;
+  font-size: medium;
+}
+
+.todoForm > input:focus {
+  border: none;
+}
+.todoForm > button {
+  border: none;
+  background-color: white;
+  font-size: larger;
+}
+
+
